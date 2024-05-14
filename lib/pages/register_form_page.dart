@@ -26,7 +26,13 @@ class _RegisterFormPageState extends State<RegisterFormPage> {
   final _passController = TextEditingController();
   final _confirmPassController = TextEditingController();
 
-  final List<String> _countries = ['Kazakhstan', 'Russia', 'Ukraine', 'Germany', 'France'];
+  final List<String> _countries = [
+    'Kazakhstan',
+    'Russia',
+    'Ukraine',
+    'Germany',
+    'France'
+  ];
   String _selectedCountry = 'Kazakhstan';
 
   final _nameFocus = FocusNode();
@@ -203,7 +209,7 @@ class _RegisterFormPageState extends State<RegisterFormPage> {
                 hintText: 'Enter the password',
                 suffixIcon: IconButton(
                   icon:
-                  Icon(_hidePass ? Icons.visibility : Icons.visibility_off),
+                      Icon(_hidePass ? Icons.visibility : Icons.visibility_off),
                   onPressed: () {
                     setState(() {
                       _hidePass = !_hidePass;
@@ -307,21 +313,6 @@ class _RegisterFormPageState extends State<RegisterFormPage> {
         ),
       ),
     );
-    // До Flutter 2.0
-    // _scaffoldKey.currentState.showSnackBar(
-    //   SnackBar(
-    //     duration: Duration(seconds: 5),
-    //     backgroundColor: Colors.red,
-    //     content: Text(
-    //       message,
-    //       style: TextStyle(
-    //         color: Colors.black,
-    //         fontWeight: FontWeight.w600,
-    //         fontSize: 18.0,
-    //       ),
-    //     ),
-    //   ),
-    // );
   }
 
   void _showDialog({required String name}) {
