@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+![Снимок экрана 2024-05-14 114547](https://github.com/azinaaitbai/flutter_topic6/assets/144225702/e4c74157-f0df-4bf3-93c8-2b742e09ed6d)
+![Снимок экрана 2024-05-14 114603](https://github.com/azinaaitbai/flutter_topic6/assets/144225702/edf5404c-ae82-4315-bf4f-07405ccf89a5)
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
